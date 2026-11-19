@@ -1,0 +1,31 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# Build & test
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.coverage
+*.log
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python package files
+*.whl
